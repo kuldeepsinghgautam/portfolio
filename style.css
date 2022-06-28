@@ -1,0 +1,186 @@
+
+/*--FOR STICKY ---  top:0; position:-webkit-sticky; position:sticky;  ----- */
+
+* { margin: 0px; padding:0px; font-family: arial;}
+a { text-decoration: none; }
+
+body{margin: 0px;}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover{
+  border: solid 0px;
+  border-color: orange;
+  box-shadow:   0 10px 20px 0 rgba(255, 239, 60, 0.3); 
+
+  
+}
+
+
+
+
+ /*--------------- IMAGE GRAY HOVER COLOR -----------*/
+.hoverimagecolor{
+filter: grayscale(100%);
+transition: 1.0s;
+}
+.hoverimagecolor:hover{filter:none; }
+
+
+/* -------------- HORIZONTAL SCROLL MENU------------- */
+
+ .scrollmenuhz {
+ 
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+ .scrollmenuhz a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  
+}
+
+ 
+/* ---------------------------  MOVING UP CARD  -------------------------- */
+
+.mpy-moveup-hover {
+  transition: 0.01s;
+}
+.mpy-moveup-hover:hover {
+  transform: translate(0, 10px);
+}
+
+/* ---------------------------  ZOOM CARD  -------------------------- */
+.mpy-zoom:hover {
+ transform: scale(1.05); 
+}
+
+.mpy-zoom{ transition: 0.9s;}
+
+
+
+
+
+/* -----  -------*/
+
+* { margin: 0; padding: 0; font-family: arial;}
+a { text-decoration: none; }
+p { font-family: arial; }
+
+
+/* ------ SMOOTH SCROLLING ---------- */
+ html {scroll-behavior: smooth;}
+
+
+/* --------------- SCROLL BUTTON STYLE width------------- */
+::-webkit-scrollbar {width: 10px;}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 35px #FFEF3C; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#9933cc  ;  
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+/*-----------------------------------------------------*/
+
+
+ /*----------------- TABLE -------------------*/
+
+.tbl{ padding: 20px;}
+table {width:100%;}
+table,th,td {border:1px solid black; border-collapse:collapse;}
+th,td {padding:15px; text-align:left;}
+.table th {background-color:orange; color:black;}
+.table tr:nth-child(even){background-color:#eee;}
+.table tr:nth-child(odd) { background-color:#fff;}
+
+/*-----------------------------------------------------*/
+
+ 
+
+
+
+/* ------------  TABLE RESPONSIVE MEDIA QUERY -------------- */
+
+
+#tableres {margin: 20px 310px 20px 310px; }
+
+@media screen and (max-width: 900px) {#tableres {margin: 20px 30px 20px 30px;} }
+
+/*------------------------------------------------------------*/
+
+
+ /* ------------  PROFILE RESPONSIVE MEDIA QUERY -------------- */
+
+
+#profsize {margin: 20px 310px 20px 310px; }
+
+@media screen and (max-width: 900px) {#profsize {margin: 20px 30px 20px 30px;} }
+
+/*------------------------------------------------------------*/
+ 
+/* ---------------------------  MOVING UP CARD  -------------------------- */
+
+#profsize {
+  transition: 1s;
+}
+#profsize:hover {
+  transform: translate(0, 10px);
+
+}
+
+
+ /* ------------  TOPIC RESPONSIVE MEDIA QUERY -------------- */
+
+
+#topsize {margin: 20px 200px 20px 200px; }
+
+@media screen and (max-width: 900px) {#topsize {margin: 20px 30px 20px 30px;} }
+
+/*------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+
+ 
+
+/* ------------  MOBILE RESPONSIVE Button  -------------- */
+
+
+#btsize {margin: 20px 460px 20px 460px; }
+
+@media screen and (max-width: 900px) {#btsize {margin: 20px 60px 20px 60px;} }
+
+/*------------------------------------------------------------*/
+
+
+
+/* ------------  TABLETS RESPONSIVE Button  -------------- */
+
+@media screen and (min-width: 600px) {#btsize {margin: 20px 60px 20px 60px;} }
+
+/*------------------------------------------------------------*/
+ 
+
+/*------------------------------------------------------------*/
